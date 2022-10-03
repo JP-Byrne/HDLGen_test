@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Sep 27 20:53:33 2022
+# Process ID: 11752
+# Current directory: C:/Users/johnp/Documents/5thYear/mastersProject/HDLGen/Application
+# Command line: vivado.exe -source C:\Users\johnp\Documents\5thYear\mastersProject\HDLGen\User_Projects/jp_test22/VHDL/AMDPrj/jp_test22.tcl
+# Log file: C:/Users/johnp/Documents/5thYear/mastersProject/HDLGen/Application/vivado.log
+# Journal file: C:/Users/johnp/Documents/5thYear/mastersProject/HDLGen/Application\vivado.jou
+#-----------------------------------------------------------
+start_gui
+source {C:\Users\johnp\Documents\5thYear\mastersProject\HDLGen\User_Projects/jp_test22/VHDL/AMDPrj/jp_test22.tcl}
+update_compile_order -fileset sources_1
