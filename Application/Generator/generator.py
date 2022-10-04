@@ -93,8 +93,12 @@ class Generator(QWidget):
                 signal_declare_syntax = signal_declare_syntax.replace("$type",
                                                                       signal.getElementsByTagName('type')[
                                                                           0].firstChild.data)
-                signal_description = signal.getElementsByTagName('description')[
+                signal_description = ""
+                try:
+                    signal_description = signal.getElementsByTagName('description')[
                     0].firstChild.data
+                except:
+                    signal_description += "To be completed"
                 entity_signal_description += "-- " + signal.getElementsByTagName('name')[
                     0].firstChild.data + "\t" + signal_description + "\n"
                 gen_signals += "\t" + signal_declare_syntax + "\n"
